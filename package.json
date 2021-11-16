@@ -26,7 +26,8 @@
   "main": "./lib/index",
   "browser": {
     "readable-stream": "./lib/readable-stream-browser.js",
-    "./lib/index": "./dist/jszip.min.js"
+    "./lib/index": "./dist/jszip.min.js",
+    "stream": "stream-browserify"
   },
   "types": "./index.d.ts",
   "repository": {
